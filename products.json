@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Iphone 16 Titan trắng",
+        "description": "iPhone 16 Pro Max 256GB | Chính hãng VN/A",
+        "price": 30,
+        "image": "ip16.jpg",
+        "category": "Điện thoại"
+    },
+    {
+        "id": 2,
+        "name": "Iphone 15 Hoàng kim",
+        "description": "iPhone 15 128GB Chưa Active",
+        "price": 18,
+        "image": "ip15.jpg",
+        "category": "Máy tính"
+    },
+    {
+        "id": 3,
+        "name": "Tai nghe Blutooth",
+        "description": "Kết nối Bluetooth 5.0, thời lượng pin 20 giờ, chống ồn chủ động.",
+        "price": 1.5,
+        "image": "tai nghe bluetooth.jpg",
+        "category": "Phụ kiện"
+    },
+    {
+        "id": 4,
+        "name": "Macbook",
+        "description": "MacBook Air 2022 13 inch Apple M2 16GB RAM 256GB SSD 8GPU – NEW",
+        "price": 22,
+        "image": "Macbook.jpg",
+        "category": "Máy tính bảng"
+    }
+]

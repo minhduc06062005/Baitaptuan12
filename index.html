@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Bán Hàng</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cửa Hàng Trực Tuyến</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#products">Sản phẩm</a></li>
+                <li><a href="#cart">Giỏ hàng (<span id="cart-item-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container" id="home-page">
+        <h2>Chào mừng đến với cửa hàng của chúng tôi!</h2>
+        <p>Khám phá các sản phẩm chất lượng với giá cả tốt nhất.</p>
+        <section id="featured-products">
+            <h3>Sản phẩm Nổi bật</h3>
+            <ul id="featured-product-list">
+                </ul>
+        </section>
+    </div>
+
+    <div class="container" id="product-list-page" style="display: none;">
+        <h2>Danh sách Sản phẩm</h2>
+        <ul id="product-list">
+            </ul>
+    </div>
+
+    <div class="container" id="product-detail-page" style="display: none;">
+        <h2>Chi tiết Sản phẩm</h2>
+        <div class="product-details">
+            <img id="product-image" src="ip16.jpg" alt="">
+            <div class="product-info">
+                <h3 id="product-name"></h3>
+                <p id="product-description"></p>
+                <p>Giá: <span id="product-price"></span> triệu</p>
+                <button class="add-to-cart" data-product-id="">Thêm vào giỏ hàng</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="cart-page" style="display: none;">
+        <h2>Giỏ hàng của bạn</h2>
+        <ul id="cart-items">
+            </ul>
+        <div class="cart-total">
+            Tổng cộng: <span id="cart-total-price">0</span>triệu VND
+        </div>
+    </div>
+
+    <script src="script.js" ></script>
+</body>
+</html>
